@@ -26,7 +26,10 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+
+
+            ]
           },
           "configurations": {
             "production": {
@@ -89,8 +92,14 @@
             ],
             "styles": [
               "src/styles.css"
+
             ],
-            "scripts": []
+            "scripts": [
+              {
+                "prepublish": "uglifyjs node_modules/d3-interpolate/build/d3-interpolate.min.js node_modules/d3-scale/build/d3-scale.min.js node_modules/chroma-js/chroma.js node_modules/numeral/min/numeral.min.js src/BubbleLayer.js -c -m -o dist/leaflet-bubble.js"
+
+              }
+            ]
           }
         },
         "lint": {

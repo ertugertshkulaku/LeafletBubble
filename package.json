@@ -7,7 +7,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "prepublish": ""
   },
   "private": true,
   "dependencies": {
@@ -19,8 +20,22 @@
     "@angular/platform-browser": "~10.2.0",
     "@angular/platform-browser-dynamic": "~10.2.0",
     "@angular/router": "~10.2.0",
+    "@types/d3-scale": "^3.2.1",
+    "@types/lodash": "^4.14.165",
+    "chroma-js": "^2.1.0",
+    "d3": "^6.2.0",
+    "d3-array": "^2.8.0",
+    "d3-collection": "^1.0.7",
+    "d3-format": "^2.0.0",
+    "d3-interpolate": "^2.0.1",
+    "d3-scale": "^3.2.3",
+    "d3-time-format": "^3.0.0",
+    "leaflet": "^1.7.1",
+    "lodash": "^4.17.20",
+    "numeral": "^2.0.6",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
+    "uglify-js": "^3.11.6",
     "zone.js": "~0.10.2"
   },
   "devDependencies": {
